@@ -1,2 +1,7 @@
 # MRDFuse
 MRDFuse: Multimodal Spectral Classification via Reconstruction-Driven Feature Fusion
+MRDFuse (Multimodal Reconstruction‑Driven Fusion) is a novel deep learning framework designed for multimodal spectral classification, targeting diagnostic applications across multiple diseases. Built on a dual-encoder architecture, MRDFuse integrates a modality-aware gating mechanism and a cross-modal attention module to facilitate deep interaction between infrared (IR) and Raman spectral modalities.
+
+A key innovation of MRDFuse is the incorporation of an auxiliary reconstruction branch. This branch encourages the model to reconstruct input spectra while performing classification, serving as a structural regularizer that enhances the robustness, semantic coherence, and discriminative power of learned feature representations. By jointly optimizing the reconstruction and classification objectives, MRDFuse is able to learn highly informative and generalizable features from limited training data.
+
+In extensive evaluations across four disease datasets (thyroid malignancy, lung cancer, valvular disease, and aortic dissection), MRDFuse consistently outperforms traditional machine learning models, unimodal deep models, and standard multimodal fusion baselines. Improvements are observed across comprehensive metrics including accuracy, precision, sensitivity, specificity, F1-score, and AUC, underscoring the effectiveness of reconstruction-driven task cooperativity and cross-modal feature fusion.
